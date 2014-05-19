@@ -1,3 +1,4 @@
+@import "variables";
 /*generic theme*/
 html, body{
    padding: 0;
@@ -24,7 +25,7 @@ a{
 	color:#000;
 }
 body {
-	background-color: #CCCCCC;
+	background-color: $main-page-bg-color;
 	
 	margin: 0;
 	padding:0;
@@ -52,7 +53,7 @@ section.header{
 	margin:0;
 	padding:0 5px;
 	width:100%;
-	background-color: #070707;
+	background-color: $nav-bar-bg-color;
 
 }
 .header h1{
@@ -68,7 +69,8 @@ section.header{
 }
 #pageContent{
 	width:700px;
-	background:#fff;
+	background:$main-panel-bg-color;
+	color:$main-panel-text-color;
 	margin:0 auto;
 	margin-top:20px;
 	padding:10px;
@@ -91,7 +93,7 @@ div#empty-space{
 }
 .footer{
 	clear:both;
-	background-color: #000000;
+	background-color: $nav-bar-bg-color;
 	width:100%;
 	vertical-align: top;
 	display: block;
@@ -106,3 +108,4 @@ div#empty-space{
 }
 .footer ul li a{
 	color:#FFFFFF;
+}
