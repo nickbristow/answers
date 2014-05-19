@@ -1,0 +1,33 @@
+/* tablet */
+
+@media (min-width:768px) and (max-width:979px){
+  .bubble{
+    display: none;
+  }
+  .hnl-logo{
+    border-bottom: none !important;
+  }
+  .navbar-top{
+    height: auto !important;
+  }
+  .ribbon-wrapper{
+    max-width: 100%;
+  }
+  .nav-top{
+    width: 330px !important;
+    padding-top: 50px !important;
+  }
+  .logo{
+    width: 180px !important;
+  }
+  .header-search{
+    padding-top: 40px !important;
+  }
+  .ribbon-wrapper #query{
+    width: 60% !important;
+  }
+  #query{
+    vertical-align: bottom;
+    
+  }
+}
