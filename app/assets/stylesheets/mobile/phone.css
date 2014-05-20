@@ -1,6 +1,13 @@
 /* phone */
 
 @media only screen and (max-width: 600px), only screen and (max-device-width: 600px)  {
+  html, body{
+    height:auto;
+  }
+  ul {
+
+    margin:0;
+  }
   .modal-container{
     padding-top: 15px !important;
   }
@@ -34,7 +41,7 @@
     width: 70% !important;
   }
   #search{
-    text-align: center !important;
+    text-align: left !important;
     width: 100% !important;
   }
   .btn-search{
@@ -58,14 +65,14 @@
     width: 100% !important;
   }
   .ribbon-front input#query{
-    width: 100% !important;
+    width: 95% !important;
   }
   .ribbon-front .btn-search{
     display: none;
   }
   /* move the main part down a bit */
   .page-container{
-    margin-top: 150px !important;
+    margin-top: 10px !important;
   }
   /* adjust sidebar margins when they're one column */
   .sidebar{
@@ -85,9 +92,11 @@
     margin-right: auto !important;
     margin-top: 15px !important;
   }
-  /* don't break links on homepage */
+  /* don't break links on homepage 
+  Nick-not sure why this is in here. Im changing it to wrap. 
+  */
   .category a{
-    white-space: nowrap;
+    white-space: wrap;
   }
   a.hnl-logo{
     border-bottom: none !important;
@@ -99,5 +108,9 @@
     width: 100%;
     background-color: #000;
     padding-bottom: 10px;
+  }
+  #pageContent{
+    max-width:100%;
+    margin-top:0;
   }
 }
