@@ -116,10 +116,12 @@ div#empty-space{
 	vertical-align: top;
 	display: block;
 	height:20px;
+	white-space: nowrap;
 
 }
 .footer ul{
 	list-style-type: none;
+	padding:0 0 0 20px;
 }
 .footer ul li{
 	display: inline;

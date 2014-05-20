@@ -36,7 +36,7 @@ form#search{
   padding-top:0px;
 } 
 form#search input#query { 
-  width:80%;
+  width:65%;
 }
 #navigation{ 
   padding:0px;
@@ -120,7 +120,7 @@ div.article{
   padding: 10px 15px;
   min-width:20px;
   max-width:inherit;
-  border-top: 3px solid #BD8A38;
+  border-top: 0px solid #BD8A38;
   position: relative;
   font: 14px arial;
   position:relative;

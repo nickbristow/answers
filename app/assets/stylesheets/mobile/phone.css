@@ -81,7 +81,7 @@
   }
   /* fix the footer */
   .footer{
-    height: 150px !important;
+    height: 100% !important;
   }
   .footer .container{
     text-align: center;
