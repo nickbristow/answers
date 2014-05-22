@@ -1,0 +1,6 @@
+<section class="header">
+  <h1><a href="/">Answers</a></h1>
+  <% if !current_page?('/')  %>
+      <%= render :partial => 'shared/search_form' %>
+  <% end %>
+</section>

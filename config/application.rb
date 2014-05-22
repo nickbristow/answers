@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 require 'csv'
+#require 'Theme_Engine'
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -66,5 +67,7 @@ module Honoluluanswers
 
     # Enable tables in the content fields for Articles
     config.action_view.sanitized_allowed_tags = 'table', 'tr', 'td'
+
+    config.railties_order = [:main_app, :all]
   end
 end
